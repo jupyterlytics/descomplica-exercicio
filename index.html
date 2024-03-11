@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Página Web</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilo adicional */
+    body {
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="bg-dark">
+    <div class="container">
+      <h1 class="text-light">Minha Página Web</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link text-light">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-light">Sobre</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-light">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container mt-4">
+    <section>
+      <h2>Seção 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisl nec nibh condimentum, non elementum eros dignissim. Integer sed lectus eget sapien fringilla vestibulum.</p>
+    </section>
+
+    <section>
+      <h2>Seção 2</h2>
+      <p>Nulla quis ex eu elit fermentum feugiat. Aliquam ac tortor semper, consequat velit ut, lacinia urna. Ut nec lacus vel ligula ultrices ullamcorper non sed elit.</p>
+    </section>
+
+    <section>
+      <h2>Seção 3</h2>
+      <p>Fusce eu fringilla nisi. Nam nec nulla non tortor consequat sodales. Duis vestibulum nunc eget libero interdum, id finibus risus consectetur.</p>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="currentYear"></span> Minha Página Web. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Obter o ano atual e atualizar o rodapé
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
